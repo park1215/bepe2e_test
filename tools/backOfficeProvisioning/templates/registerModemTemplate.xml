@@ -1,0 +1,23 @@
+<soapenv:Envelope xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:ser="http://www.wildblue.viasat.com/XMLSchema/v1.0/webservice/ServiceActivationFacade" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><wsu:Timestamp wsu:Id="TS-B79CDE14356442177E15196818484474"><wsu:Created>2018-02-26T21:50:48.447Z</wsu:Created><wsu:Expires>2018-02-26T21:55:48.447Z</wsu:Expires></wsu:Timestamp><wsse:UsernameToken wsu:Id="UsernameToken-B79CDE14356442177E15196818484473"><wsse:Username>QAADMIN</wsse:Username><wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">d3druBrekEa</wsse:Password><wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">f9A3O9OYbTrOJi9zvMx8Pg==</wsse:Nonce><wsu:Created>2018-02-26T21:50:48.441Z</wsu:Created></wsse:UsernameToken></wsse:Security>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>bm</head:username>
+            <head:application>wb</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ser:registerModem>
+         <ser:transactionReference>2500</ser:transactionReference>
+         <ser:serviceAgreementReference>402911149</ser:serviceAgreementReference>
+         <ser:beamNumber>702</ser:beamNumber>
+         <ser:satelliteName>ViaSat-2-Small</ser:satelliteName>
+         <ser:macAddress>00:A0:BC:76:46:14</ser:macAddress>
+         <ser:latitude>33.0957</ser:latitude>
+         <ser:longitude>-117.259986</ser:longitude>
+         <ser:installerId>99072761</ser:installerId>
+         <ser:timezone>UTC-6</ser:timezone>
+      </ser:registerModem>
+   </soapenv:Body>
+</soapenv:Envelope>

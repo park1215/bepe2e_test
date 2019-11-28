@@ -1,0 +1,19 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header>
+		<Action xmlns="http://www.w3.org/2005/08/addressing">http://www.volubill.com/DCPCommonPort/logon</Action>
+		<MessageID xmlns="http://www.w3.org/2005/08/addressing">urn:uuid:4ed48f14-3176-4c75-8fd1-5533f42f9b72</MessageID>
+		<To xmlns="http://www.w3.org/2005/08/addressing">https://10.67.164.37:8183/axis2/services/DCPCommon</To>
+		<ReplyTo xmlns="http://www.w3.org/2005/08/addressing">
+			<Address>http://www.w3.org/2005/08/addressing/anonymous</Address>
+		</ReplyTo>
+	</soap:Header>
+	<soap:Body>
+		<ns2:logonRequest xmlns:ns2="http://www.volubill.com/dcp/soap">
+			<username>soapuser</username>
+			<password>wildblue</password>
+			<servantType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+			<serviceProviderName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+			<accountId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+		</ns2:logonRequest>
+	</soap:Body>
+</soap:Envelope>

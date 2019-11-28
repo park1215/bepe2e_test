@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://apps.sertifi.net/services/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:ApplySignature>
+         <ser:pstr_APICode>299A0DFD-ABF0-4D12-B28E-ADDBC76EB1BA</ser:pstr_APICode>
+         <ser:pstr_FileID>.AQDwxgKGpiyIsfIbzeTsoIsR0</ser:pstr_FileID>
+         <ser:pstr_DocumentID>.AQBLfL6GDxxQWqD4LyjXC9mA0</ser:pstr_DocumentID>
+         <ser:pstr_NameSigned>Yerram Bhyri</ser:pstr_NameSigned>
+         <ser:pstr_Email>yerram.bhyri@viasat.com</ser:pstr_Email>
+      </ser:ApplySignature>
+   </soapenv:Body>
+</soapenv:Envelope>

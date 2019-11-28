@@ -1,0 +1,30 @@
+<Request xsi:schemaLocation="http://www.wildblue.com/XMLSchema/v2.1/OrderEntry https://apipub.test.wdc1.wildblue.net/XMLAgent/request?XSD=xsd/OrderEntry.xsd" xsi:noNamespaceSchemaLocation="https://apipub.test.wdc1.wildblue.net/XMLAgent/request?XSD=xsd/WildBlue.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SchemaVersion>2.1</SchemaVersion>
+	<TransactionID>0</TransactionID>
+	<TransactionMode>sync</TransactionMode>
+	<Requestor>ReadyAPI!</Requestor>
+	<Transaction xsi:type="ns3:TransactionRequest" TransactionType="Update" xmlns:ns3="http://www.wildblue.com/XMLSchema/v2.1/OrderEntry">
+		<SourceSystemID>WB_DIRECT</SourceSystemID>
+		<SystemID>WB_DIRECT</SystemID>
+		<UpdateService>
+			<OrderCommon>
+				<OrderReference>326950887</OrderReference>
+				<SellerInfo>
+					<OrderSoldBy>QAADMIN</OrderSoldBy>
+					<OrderEnteredBy>QAADMIN</OrderEnteredBy>
+					<FulfillmentVendor xsi:nil="true"/>
+				</SellerInfo>
+				<StartDate>2018-03-05Z</StartDate>
+			</OrderCommon>
+			<TargetAccount>90690579947550</TargetAccount>
+			<TransitionBaseService>
+				<From>
+					<TargetService>906905799475501111</TargetService>
+				</From>
+				<To><ServiceReference>332695088711</ServiceReference><Name>Unlimited Gold 50 Mbps</Name><Type>INTERNET_ACCESS_SERVICE</Type><CatalogNumber>704887</CatalogNumber></To>
+			</TransitionBaseService>
+			<RemoveService xsi:nil="true"/>
+			<AddService xsi:nil="true"/>
+		</UpdateService>
+	</Transaction>
+</Request>

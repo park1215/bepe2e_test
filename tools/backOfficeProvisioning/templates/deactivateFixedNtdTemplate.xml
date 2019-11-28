@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NewDeactivateFixedNTD xmlns="http://sdp.viasat.com/sdp/schema/SDP">
+	<messageChannelName>DEN-IT-FPv1-inttcb01-test</messageChannelName>
+	<targetId></targetId>
+	<input>
+		<dissociateMacAddress>true</dissociateMacAddress>
+	</input>
+</NewDeactivateFixedNTD>

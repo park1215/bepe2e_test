@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:clos="http://xmlns.oracle.com/AddServiceCall_jws/AddServiceCall/CloseServiceCall">
+   <soapenv:Header>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>1555620906862</head:username>
+            <head:application>?</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <clos:process>
+         <clos:workOrderReference>WB_DIRECT/BEP1555694790652</clos:workOrderReference>
+         <clos:transactionReference>${=System.currentTimeMillis()}</clos:transactionReference>
+      </clos:process>
+   </soapenv:Body>
+</soapenv:Envelope>

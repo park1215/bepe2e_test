@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:ser="http://www.wildblue.viasat.com/XMLSchema/v1.0/webservice/ServiceActivationFacade">
+   <soapenv:Header>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>String</head:username>
+            <head:application>String</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ser:modemSwap>
+         <ser:transactionReference>10107772</ser:transactionReference>
+         <ser:serviceAgreementReference>403030340</ser:serviceAgreementReference>
+         <ser:oldModemMacAddress>11:11:03:03:03:40</ser:oldModemMacAddress>
+         <ser:newModemMacAddress>E4:12:3D:BC:93:89</ser:newModemMacAddress>
+      </ser:modemSwap>
+   </soapenv:Body>
+</soapenv:Envelope>

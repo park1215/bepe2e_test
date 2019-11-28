@@ -1,0 +1,32 @@
+<soapenv:Envelope xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:ser="http://www.wildblue.viasat.com/XMLSchema/v1.0/webservice/ServiceActivationFacade" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><wsu:Timestamp wsu:Id="TS-B79CDE14356442177E151968373238824"><wsu:Created>2018-02-26T22:22:12.388Z</wsu:Created><wsu:Expires>2018-02-26T22:27:12.388Z</wsu:Expires></wsu:Timestamp><wsse:UsernameToken wsu:Id="UsernameToken-B79CDE14356442177E151968373238823"><wsse:Username>QAADMIN</wsse:Username><wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">d3druBrekEa</wsse:Password><wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">VSCuLrwN3Bycs9mkqWXI6Q==</wsse:Nonce><wsu:Created>2018-02-26T22:22:12.388Z</wsu:Created></wsse:UsernameToken></wsse:Security>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>bm</head:username>
+            <head:application>wb</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ser:provisioningComplete>
+         <ser:transactionReference>2500</ser:transactionReference>
+         <ser:serviceAgreementReference>afasfa</ser:serviceAgreementReference>
+         <!--Zero or more repetitions:-->
+         <ser:deviceStatus>
+            <!--Optional:-->
+            <ser:internalReference>12000</ser:internalReference>
+            <ser:type>AB_SPK_WIFI_IDU</ser:type>
+            <ser:name>MODEM</ser:name>
+            <ser:status>ACTIVE</ser:status>
+         </ser:deviceStatus>
+         <!--Zero or more repetitions:-->
+         <ser:serviceStatus>
+            <!--Optional:-->
+            <ser:internalReference>12001</ser:internalReference>
+            <ser:type>AB_ODU_PTRIA</ser:type>
+            <ser:name>TRIA</ser:name>
+            <ser:status>ACTIVE</ser:status>
+         </ser:serviceStatus>
+      </ser:provisioningComplete>
+   </soapenv:Body>
+</soapenv:Envelope>

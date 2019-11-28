@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:equ="http://www.viasat.com/XMLSchema/v1/EquipmentSwapValidation">
+   <soapenv:Header>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>String</head:username>
+            <head:application>String</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <equ:process>
+         <equ:externalTransactionReference>10107772</equ:externalTransactionReference>
+         <equ:soaTransactionReference>10107772</equ:soaTransactionReference>
+         <equ:soaRequestId>11460397</equ:soaRequestId>
+         <equ:serviceAgreementReference>403030340</equ:serviceAgreementReference>
+         <equ:oldMACAddress>11:11:03:03:03:40</equ:oldMACAddress>
+         <equ:newMACAddress>E4:12:3D:BC:93:89</equ:newMACAddress>
+      </equ:process>
+   </soapenv:Body>
+</soapenv:Envelope>

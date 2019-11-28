@@ -1,0 +1,16 @@
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:v4="http://www.viasat.com/XMLSchema/Facade/Fulfillment/v4">
+   <soapenv:Header>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>?</head:username>
+            <head:application>?</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v4:getWorkOrder>
+         <v4:workOrderReference>WB_DIRECT/1554752806444</v4:workOrderReference>
+      </v4:getWorkOrder>
+   </soapenv:Body>
+</soapenv:Envelope>

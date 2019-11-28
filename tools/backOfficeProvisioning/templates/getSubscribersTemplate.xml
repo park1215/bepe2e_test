@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spr="http://api.viasat.com/schema/oss/spr">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <spr:getSubscribers>
+         <spr:networkkey>1</spr:networkkey>
+         <spr:subscriberid>403034024</spr:subscriberid>
+      </spr:getSubscribers>
+   </soapenv:Body>
+</soapenv:Envelope>

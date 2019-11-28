@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:cat="http://www.wildblue.viasat.com/XMLSchema/v2/PublicWebService/CatalogWebService" xmlns:pws="http://www.wildblue.viasat.com/XMLSchema/PublicWebService/v1.0/PWSHeader" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><wsu:Timestamp wsu:Id="TS-2F2825D5BC34A9971115200139206544"><wsu:Created>2018-03-02T18:05:20.654Z</wsu:Created><wsu:Expires>2018-03-02T18:10:20.654Z</wsu:Expires></wsu:Timestamp><wsse:UsernameToken wsu:Id="UsernameToken-2F2825D5BC34A9971115200139206543"><wsse:Username>QAADMIN</wsse:Username><wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">d3druBrekEa</wsse:Password><wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">i3OtolxLbquCzkZ3fSJk5Q==</wsse:Nonce><wsu:Created>2018-03-02T18:05:20.652Z</wsu:Created></wsse:UsernameToken></wsse:Security>
+      <pws:wildBlueHeader>
+         <pws:invokedBy>
+            <pws:username>1520013920638</pws:username>
+            <pws:application>2018-03-02:10:03:52</pws:application>
+         </pws:invokedBy>
+      </pws:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <cat:getTransitionPackages>
+         <cat:externalSystemName>WB_DIRECT</cat:externalSystemName>
+         <cat:externalAccountReference>81344405358114</cat:externalAccountReference>
+      </cat:getTransitionPackages>
+   </soapenv:Body>
+</soapenv:Envelope>

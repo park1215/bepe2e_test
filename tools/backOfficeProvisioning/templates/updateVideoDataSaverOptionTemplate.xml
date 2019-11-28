@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:v1="http://www.viasat.com/XMLSchema/InternalService/SubscriberUtilities/v1">
+   <soapenv:Header>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>?</head:username>
+            <head:application>?</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v1:updateVideoDataSaverOption>
+         <v1:serviceAgreementReference>?</v1:serviceAgreementReference>
+         <v1:transactionReference>?</v1:transactionReference>
+         <v1:videoDataSaverOption>?</v1:videoDataSaverOption>
+      </v1:updateVideoDataSaverOption>
+   </soapenv:Body>
+</soapenv:Envelope>

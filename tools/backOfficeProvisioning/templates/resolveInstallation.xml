@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:ser="http://www.wildblue.viasat.com/XMLSchema/v1.0/webservice/ServiceActivationFacade">
+   <soapenv:Header>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>qaadmin</head:username>
+            <head:application>Installer_GUI</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ser:resolveInstallation>
+         <ser:accountReference>?</ser:accountReference>
+         <ser:modemMacAddress>?</ser:modemMacAddress>
+         <ser:swap>false</ser:swap>
+         <!--Optional:-->
+         <ser:installerId>21146995</ser:installerId>
+         <!--Optional:-->
+         <ser:reason>NewConnect_BEP</ser:reason>
+      </ser:resolveInstallation>
+   </soapenv:Body>
+</soapenv:Envelope>

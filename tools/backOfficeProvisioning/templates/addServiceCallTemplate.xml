@@ -1,0 +1,26 @@
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:add="http://xmlns.oracle.com/AddServiceCall_jws/AddServiceCall/AddServiceCallValidation">
+   <soapenv:Header>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>1554752806440</head:username>
+            <head:application>?</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <add:addServiceCall>
+         <add:externalSystem>WB_DIRECT</add:externalSystem>
+         <add:externalTransactionReference>1554752806444</add:externalTransactionReference>
+         <add:internalServiceAgreementReference>?</add:internalServiceAgreementReference>
+         <add:serviceCallType>COMMERCIAL_SERVICE_CALL</add:serviceCallType>
+         <add:scheduleWindow>
+            <add:fromDate/>
+            <add:toDate/>
+         </add:scheduleWindow>
+         <add:notes>1554752806450</add:notes>
+         <add:soldBy>bepe2e_testapiqa</add:soldBy>
+         <add:enteredBy>bepe2e_testapiqa</add:enteredBy>
+      </add:addServiceCall>
+   </soapenv:Body>
+</soapenv:Envelope>
