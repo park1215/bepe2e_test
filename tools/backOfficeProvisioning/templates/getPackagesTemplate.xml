@@ -1,0 +1,30 @@
+<soapenv:Envelope xmlns:cat="http://www.wildblue.viasat.com/XMLSchema/v2/PublicWebService/CatalogWebService" xmlns:pws="http://www.wildblue.viasat.com/XMLSchema/PublicWebService/v1.0/PWSHeader" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><wsu:Timestamp wsu:Id="TS-88E9A7569521D539AF1519250542944882"><wsu:Created>2018-02-21T22:02:22.944Z</wsu:Created><wsu:Expires>2018-02-21T22:07:22.944Z</wsu:Expires></wsu:Timestamp><wsse:UsernameToken wsu:Id="UsernameToken-88E9A7569521D539AF1519250542944881"><wsse:Username>QAADMIN</wsse:Username><wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">d3druBrekEa</wsse:Password><wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">Fj3820aDIe2qm3e2V8earg==</wsse:Nonce><wsu:Created>2018-02-21T22:02:22.944Z</wsu:Created></wsse:UsernameToken></wsse:Security>
+      <pws:wildBlueHeader>
+         <pws:invokedBy>
+            <pws:username>2018-02-21:02:02:21</pws:username>
+            <pws:application>1519250542939</pws:application>
+         </pws:invokedBy>
+      </pws:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <cat:getPackages>
+         <cat:qualifier>
+            <cat:salesChannel>FIELD_TRIAL</cat:salesChannel>
+            <cat:customerType>EMPLOYEE</cat:customerType>
+            <cat:transactionType>newConnect</cat:transactionType>
+            <cat:beamNumber>702</cat:beamNumber>
+            <cat:satelliteName>ViaSat-2-Small</cat:satelliteName>
+            <cat:location>
+               <GeoPosition>
+                  <latitude>33.0957</latitude>
+                  <longitude>-117.259986</longitude>
+               </GeoPosition>
+               <Address type="undefined">
+                  <countryCode>?</countryCode>
+               </Address>
+            </cat:location>
+         </cat:qualifier>
+      </cat:getPackages>
+   </soapenv:Body>
+</soapenv:Envelope>

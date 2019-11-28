@@ -1,0 +1,14 @@
+macIdentifier = ["00:A0:BC:4E:DD:E8"]
+servicePlan = 'Business Unlimited 100'
+address = "6155 EL CAMINO REAL"
+city = "CARLSBAD"
+state = "CA"
+zipcode = "92009"
+countryCode = "US"
+user = "devteamall"
+salesChannel = "B2B_PARTNERS"
+requestor = "JHAYDENDSAGENT"
+orderSoldBy = "B2BCCESTARK"
+orderEnteredBy = "JHAYDENDSAGENT"
+customerType = "EXEDE_BUSINESS"
+systemID = "WB_DIRECT"

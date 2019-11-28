@@ -1,0 +1,24 @@
+<Request xsi:schemaLocation="http://www.wildblue.com/XMLSchema/v2.1/OrderEntry https://apipub.test.wdc1.wildblue.net/XMLSchema/v2.1/OrderEntry.xsd" xsi:noNamespaceSchemaLocation="https://apipub.test.wdc1.wildblue.net/XMLSchema/v2.1/WildBlue.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oe="http://www.wildblue.com/XMLSchema/v2.1/OrderEntry">
+  <SchemaVersion>2.1</SchemaVersion>
+  <TransactionID>0</TransactionID>
+  <TransactionMode>sync</TransactionMode>
+  <Requestor>JEF</Requestor>
+  <ResponseURL>http://wbapp.test.wildblue.net:7771/Simulators/AcknowledgementServlet</ResponseURL>
+  <Transaction TransactionType="Update" xsi:type="oe:TransactionRequest">
+        <!-- This is the SystemID of the WildBlue system sending the FulfillmentOrder -->
+    <SourceSystemID>WB_DIRECT</SourceSystemID>
+    <SystemID>WB_DIRECT</SystemID>
+    <SuspendAccount>
+      <OrderCommon>
+        <OrderReference>1550098799339</OrderReference>
+        <SellerInfo>
+          <OrderSoldBy>qawebapp</OrderSoldBy>
+          <FulfillmentVendor xsi:nil="true"/>
+        </SellerInfo>
+        <StartDate>2014-06-26</StartDate>
+      </OrderCommon>
+      <TargetAccount>1550098721212</TargetAccount>
+      <SuspendReason>VOLUNTARY</SuspendReason>
+    </SuspendAccount>
+  </Transaction>
+</Request>

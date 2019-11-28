@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:sub="http://www.viasat.com/XMLSchema/v2/webservice/SubscriberSearchService">
+   <soapenv:Header>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>bm</head:username>
+            <head:application>wb</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <sub:findSubscribersBySearchCriteria>
+         <sub:organization>WildBlue</sub:organization>
+         <sub:username>devteamall</sub:username>
+         <sub:referenceValue>402937894</sub:referenceValue>
+         <sub:referenceType>SERVICE_AGREEMENT_INTERNAL</sub:referenceType>
+      </sub:findSubscribersBySearchCriteria>
+   </soapenv:Body>
+</soapenv:Envelope>

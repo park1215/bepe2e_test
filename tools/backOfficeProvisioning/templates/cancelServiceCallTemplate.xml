@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:can="http://xmlns.oracle.com/AddServiceCall_jws/AddServiceCall/CancelServiceCall">
+   <soapenv:Header>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>?</head:username>
+            <head:application>?</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <can:process>
+         <can:externalSystem>WB_DIRECT</can:externalSystem>
+         <can:externalTransactionReference>1554752806444a</can:externalTransactionReference>
+         <can:victimTransactionRef>1554752806444</can:victimTransactionRef>
+      </can:process>
+   </soapenv:Body>
+</soapenv:Envelope>

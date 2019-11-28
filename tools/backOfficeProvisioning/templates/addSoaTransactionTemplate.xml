@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:v4="http://www.viasat.com/XMLSchema/InternalWebService/BusinessTransaction/v4">
+   <soapenv:Header>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>String</head:username>
+            <head:application>String</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v4:addSoaTransaction>
+         <transactionTypeName>equipmentSwap</transactionTypeName>
+         <externalSystemName>WB_DIRECT</externalSystemName>
+         <salesChannelName>B2B_PARTNERS</salesChannelName>
+         <soaRequestId>11460397</soaRequestId>
+         <externalTransactionReference>1551295727025</externalTransactionReference>
+         <externalServiceAgreementReference>20452968</externalServiceAgreementReference><soldBy>bepe2e</soldBy>
+      </v4:addSoaTransaction>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:v1="http://www.viasat.com/XMLSchema/InternalService/SubscriberUtilities/v1">
+   <soapenv:Header>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>bepe2e_testapiqa</head:username>
+            <head:application>1554752749690</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v1:getServiceCallTypesByAccount>
+         <v1:accountReference>302781987</v1:accountReference>
+      </v1:getServiceCallTypesByAccount>
+   </soapenv:Body>
+</soapenv:Envelope>

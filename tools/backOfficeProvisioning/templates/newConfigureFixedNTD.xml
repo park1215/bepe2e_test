@@ -1,0 +1,12 @@
+<NewConfigureFixedNTD
+    xmlns="http://sdp.viasat.com/sdp/schema/SDP">
+    <targetId></targetId>
+    <input>
+        <latitude></latitude>
+        <longitude></longitude>
+        <smartWiFi>
+            <enableInstallation>false</enableInstallation>
+            <maxExtenderCount>0</maxExtenderCount>
+        </smartWiFi>
+    </input>	
+</NewConfigureFixedNTD>

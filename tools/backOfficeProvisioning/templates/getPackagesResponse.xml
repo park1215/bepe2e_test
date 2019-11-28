@@ -1,0 +1,654 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns4:getPackagesResponse xmlns:ns2="http://www.wildblue.viasat.com/XMLSchema/PublicWebService/v1.0/PWSHeader" xmlns:ns3="http://www.wildblue.viasat.com/XMLSchema/PublicWebService/v1.0/PWSException" xmlns:ns4="http://www.wildblue.viasat.com/XMLSchema/v2/PublicWebService/CatalogWebService">
+         <ns4:package>
+            <ns4:packageReference>704894</ns4:packageReference>
+            <ns4:displayName>Unlimited Platinum 100 Mbps</ns4:displayName>
+            <ns4:description>The Unlimited Platinum 100 Mbps plan includes unlimited data. With the Viasat WiFi Gateway, you’ll be able to connect WiFi-enabled devices throughout your home. Download speeds are provided at up to 100 Mbps and upload speeds are up to 3 Mbps. Video streams at Full HD quality (typically 1080p). After 150 GB of data usage, we may prioritize your data behind other customers during network congestion.</ns4:description>
+            <ns4:feature>
+               <ns4:name>DEVICE_PROTOCOL</ns4:name>
+               <ns4:value>AB</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DOWNLOAD_SPEED</ns4:name>
+               <ns4:value>Download Speeds up to 100.0 Mbps</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>UPLOAD_SPEED</ns4:name>
+               <ns4:value>Upload Speeds up to 3.0 Mbps</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DATA_CAP_GB</ns4:name>
+               <ns4:value>150</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DOWNLOAD_RATE</ns4:name>
+               <ns4:value>100</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DOWNLOAD_RATE_UNIT</ns4:name>
+               <ns4:value>Mbps</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>WIRELESS_ROUTER</ns4:name>
+               <ns4:value>Wireless router (3x3 MU-MIMO, 802.11 a/b/g/n/ac, simultaneous dual-band) and 2-port gigabit Ethernet router included</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>VOICE_ADAPTER</ns4:name>
+               <ns4:value>Integrated voice adapter with a single RJ-11 phone port (Exede Voice service optional)</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>VIDEO_OPTIMIZATION</ns4:name>
+               <ns4:value>Streaming video at Full HD quality (typically 1080p)</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>FEES</ns4:name>
+               <ns4:value>Monthly equipment lease fee and taxes may apply.</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DATA_SAVER_OPTION_DEFAULT</ns4:name>
+               <ns4:value>NA</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>PLAN_TYPE</ns4:name>
+               <ns4:value>Residential</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>POLICY_SYSTEM</ns4:name>
+               <ns4:value>O</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>METER_TYPE</ns4:name>
+               <ns4:value>Prioritized</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>SELFCARE_TRANSITION_ALLOWED</ns4:name>
+               <ns4:value>True</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_1080p_video</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_Unlimited</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_WirelessRouterV2</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_VoiceAdapter</ns4:value>
+            </ns4:feature>
+            <ns4:costDescription>$0.00/month</ns4:costDescription>
+            <ns4:optionGroup>
+               <ns4:displayName>Contract Terms</ns4:displayName>
+               <ns4:selectionType>SELECT_ONE</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Select One of These Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>230111</ns4:packageItemReference>
+                  <ns4:displayName>Month-to-Month Agreement</ns4:displayName>
+                  <ns4:isDefault>false</ns4:isDefault>
+                  <ns4:itemType>CONTRACT</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>230111</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>true</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+            <ns4:optionGroup>
+               <ns4:displayName>Equipment Plans</ns4:displayName>
+               <ns4:selectionType>SELECT_ONE</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Select One of These Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>703344</ns4:packageItemReference>
+                  <ns4:displayName>Equipment Lease Fee - Monthly</ns4:displayName>
+                  <ns4:isDefault>false</ns4:isDefault>
+                  <ns4:itemType>EQUIPMENT_LEASE_FEE</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>703344</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>true</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+            <ns4:optionGroup>
+               <ns4:displayName>Included Features</ns4:displayName>
+               <ns4:selectionType>INCLUDED</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Included Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>240121</ns4:packageItemReference>
+                  <ns4:displayName>10 Email Addresses</ns4:displayName>
+                  <ns4:isDefault>true</ns4:isDefault>
+                  <ns4:itemType>EMAIL</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>240121</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>false</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+            <ns4:optionGroup>
+               <ns4:displayName>Internet Access Service</ns4:displayName>
+               <ns4:selectionType>INCLUDED</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Included Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>704894</ns4:packageItemReference>
+                  <ns4:displayName>Unlimited Platinum 100 Mbps</ns4:displayName>
+                  <ns4:isDefault>false</ns4:isDefault>
+                  <ns4:itemType>INTERNET_ACCESS_SERVICE</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>704894</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>true</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+         </ns4:package>
+         <ns4:package>
+            <ns4:packageReference>704887</ns4:packageReference>
+            <ns4:displayName>Unlimited Gold 50 Mbps</ns4:displayName>
+            <ns4:description>The Unlimited Gold 50 Mbps plan includes unlimited data. With the Viasat WiFi Gateway, you’ll be able to connect WiFi-enabled devices throughout your home. Download speeds are provided at up to 50 Mbps and upload speeds are up to 3 Mbps. Video streams at HD quality (typically 720p). After 100 GB of data usage, we may prioritize your data behind other customers during network congestion.</ns4:description>
+            <ns4:feature>
+               <ns4:name>DEVICE_PROTOCOL</ns4:name>
+               <ns4:value>AB</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DOWNLOAD_SPEED</ns4:name>
+               <ns4:value>Download Speeds up to 50.0 Mbps</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>UPLOAD_SPEED</ns4:name>
+               <ns4:value>Upload Speeds up to 3.0 Mbps</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DATA_CAP_GB</ns4:name>
+               <ns4:value>150</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DOWNLOAD_RATE</ns4:name>
+               <ns4:value>50</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DOWNLOAD_RATE_UNIT</ns4:name>
+               <ns4:value>Mbps</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>WIRELESS_ROUTER</ns4:name>
+               <ns4:value>Wireless router (3x3 MU-MIMO, 802.11 a/b/g/n/ac, simultaneous dual-band) and 2-port gigabit Ethernet router included</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>VOICE_ADAPTER</ns4:name>
+               <ns4:value>Integrated voice adapter with a single RJ-11 phone port (Exede Voice service optional)</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>FEES</ns4:name>
+               <ns4:value>Monthly equipment lease fee and taxes may apply.</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>VIDEO_OPTIMIZATION</ns4:name>
+               <ns4:value>Streaming video at HD quality (typically 720p)</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DATA_SAVER_OPTION_DEFAULT</ns4:name>
+               <ns4:value>NA</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>PLAN_TYPE</ns4:name>
+               <ns4:value>Residential</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>POLICY_SYSTEM</ns4:name>
+               <ns4:value>O</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>METER_TYPE</ns4:name>
+               <ns4:value>Prioritized</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>SELFCARE_TRANSITION_ALLOWED</ns4:name>
+               <ns4:value>True</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_720p_video</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_Unlimited</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_WirelessRouterV2</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_VoiceAdapter</ns4:value>
+            </ns4:feature>
+            <ns4:costDescription>$0.00/month</ns4:costDescription>
+            <ns4:optionGroup>
+               <ns4:displayName>Contract Terms</ns4:displayName>
+               <ns4:selectionType>SELECT_ONE</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Select One of These Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>230111</ns4:packageItemReference>
+                  <ns4:displayName>Month-to-Month Agreement</ns4:displayName>
+                  <ns4:isDefault>false</ns4:isDefault>
+                  <ns4:itemType>CONTRACT</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>230111</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>true</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+            <ns4:optionGroup>
+               <ns4:displayName>Equipment Plans</ns4:displayName>
+               <ns4:selectionType>SELECT_ONE</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Select One of These Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>703344</ns4:packageItemReference>
+                  <ns4:displayName>Equipment Lease Fee - Monthly</ns4:displayName>
+                  <ns4:isDefault>false</ns4:isDefault>
+                  <ns4:itemType>EQUIPMENT_LEASE_FEE</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>703344</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>true</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+            <ns4:optionGroup>
+               <ns4:displayName>Included Features</ns4:displayName>
+               <ns4:selectionType>INCLUDED</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Included Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>240121</ns4:packageItemReference>
+                  <ns4:displayName>10 Email Addresses</ns4:displayName>
+                  <ns4:isDefault>true</ns4:isDefault>
+                  <ns4:itemType>EMAIL</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>240121</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>false</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+            <ns4:optionGroup>
+               <ns4:displayName>Internet Access Service</ns4:displayName>
+               <ns4:selectionType>INCLUDED</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Included Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>704887</ns4:packageItemReference>
+                  <ns4:displayName>Unlimited Gold 50 Mbps</ns4:displayName>
+                  <ns4:isDefault>false</ns4:isDefault>
+                  <ns4:itemType>INTERNET_ACCESS_SERVICE</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>704887</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>true</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+         </ns4:package>
+         <ns4:package>
+            <ns4:packageReference>704880</ns4:packageReference>
+            <ns4:displayName>Unlimited Silver 25 Mbps</ns4:displayName>
+            <ns4:description>The Unlimited Silver 25 Mbps plan includes unlimited data. With the Viasat WiFi Gateway, you’ll be able to connect WiFi-enabled devices throughout your home. Download speeds are provided at up to 25 Mbps and upload speeds are up to 3 Mbps. Video streams at DVD quality (typically 480p). After 60 GB of data usage, we may prioritize your data behind other customers during network congestion.</ns4:description>
+            <ns4:feature>
+               <ns4:name>DEVICE_PROTOCOL</ns4:name>
+               <ns4:value>AB</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DOWNLOAD_SPEED</ns4:name>
+               <ns4:value>Download Speeds up to 25.0 Mbps</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>UPLOAD_SPEED</ns4:name>
+               <ns4:value>Upload Speeds up to 3.0 Mbps</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DATA_CAP_GB</ns4:name>
+               <ns4:value>150</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DOWNLOAD_RATE</ns4:name>
+               <ns4:value>25</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DOWNLOAD_RATE_UNIT</ns4:name>
+               <ns4:value>Mbps</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>WIRELESS_ROUTER</ns4:name>
+               <ns4:value>Wireless router (3x3 MU-MIMO, 802.11 a/b/g/n/ac, simultaneous dual-band) and 2-port gigabit Ethernet router included</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>VOICE_ADAPTER</ns4:name>
+               <ns4:value>Integrated voice adapter with a single RJ-11 phone port (Exede Voice service optional)</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>VIDEO_OPTIMIZATION</ns4:name>
+               <ns4:value>Streaming video at DVD quality (typically 480p)</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>FEES</ns4:name>
+               <ns4:value>Monthly equipment lease fee and taxes may apply.</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DATA_SAVER_OPTION_DEFAULT</ns4:name>
+               <ns4:value>NA</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>PLAN_TYPE</ns4:name>
+               <ns4:value>Residential</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>POLICY_SYSTEM</ns4:name>
+               <ns4:value>O</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>METER_TYPE</ns4:name>
+               <ns4:value>Prioritized</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>SELFCARE_TRANSITION_ALLOWED</ns4:name>
+               <ns4:value>True</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_480p_video</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_Unlimited</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_WirelessRouterV2</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_VoiceAdapter</ns4:value>
+            </ns4:feature>
+            <ns4:costDescription>$0.00/month</ns4:costDescription>
+            <ns4:optionGroup>
+               <ns4:displayName>Contract Terms</ns4:displayName>
+               <ns4:selectionType>SELECT_ONE</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Select One of These Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>230111</ns4:packageItemReference>
+                  <ns4:displayName>Month-to-Month Agreement</ns4:displayName>
+                  <ns4:isDefault>false</ns4:isDefault>
+                  <ns4:itemType>CONTRACT</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>230111</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>true</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+            <ns4:optionGroup>
+               <ns4:displayName>Equipment Plans</ns4:displayName>
+               <ns4:selectionType>SELECT_ONE</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Select One of These Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>703344</ns4:packageItemReference>
+                  <ns4:displayName>Equipment Lease Fee - Monthly</ns4:displayName>
+                  <ns4:isDefault>false</ns4:isDefault>
+                  <ns4:itemType>EQUIPMENT_LEASE_FEE</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>703344</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>true</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+            <ns4:optionGroup>
+               <ns4:displayName>Included Features</ns4:displayName>
+               <ns4:selectionType>INCLUDED</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Included Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>240121</ns4:packageItemReference>
+                  <ns4:displayName>10 Email Addresses</ns4:displayName>
+                  <ns4:isDefault>true</ns4:isDefault>
+                  <ns4:itemType>EMAIL</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>240121</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>false</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+            <ns4:optionGroup>
+               <ns4:displayName>Internet Access Service</ns4:displayName>
+               <ns4:selectionType>INCLUDED</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Included Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>704880</ns4:packageItemReference>
+                  <ns4:displayName>Unlimited Silver 25 Mbps</ns4:displayName>
+                  <ns4:isDefault>false</ns4:isDefault>
+                  <ns4:itemType>INTERNET_ACCESS_SERVICE</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>704880</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>true</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+         </ns4:package>
+         <ns4:package>
+            <ns4:packageReference>704845</ns4:packageReference>
+            <ns4:displayName>Basic 12+ 12 GB</ns4:displayName>
+            <ns4:description>Includes 12 GB of high-speed data and Video Data Extender.</ns4:description>
+            <ns4:feature>
+               <ns4:name>DEVICE_PROTOCOL</ns4:name>
+               <ns4:value>AB</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DOWNLOAD_SPEED</ns4:name>
+               <ns4:value>Download Speeds up to 12.0 Mbps</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>UPLOAD_SPEED</ns4:name>
+               <ns4:value>Upload Speeds up to 3.0 Mbps</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DATA_CAP_GB</ns4:name>
+               <ns4:value>12</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DOWNLOAD_RATE</ns4:name>
+               <ns4:value>12</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DOWNLOAD_RATE_UNIT</ns4:name>
+               <ns4:value>Mbps</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>WIRELESS_ROUTER</ns4:name>
+               <ns4:value>Wireless router (3x3 MU-MIMO, 802.11 a/b/g/n/ac, simultaneous dual-band) and 2-port gigabit Ethernet router included</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>VOICE_ADAPTER</ns4:name>
+               <ns4:value>Integrated voice adapter with a single RJ-11 phone port (Exede Voice service optional)</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DATA_ALLOWANCE_POLICY</ns4:name>
+               <ns4:value>Once 100% of the high-speed data has been used on this plan, download speeds will be reduced to up to 3 Mbps.  Speeds may be significantly slower in the evening (typically 5 pm - 2 am).  Heavier users may experience slower speeds than lighter users. Speeds vary greatly based on time of day and network traffic.</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>FEES</ns4:name>
+               <ns4:value>Monthly equipment lease fee and taxes may apply.</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>DATA_SAVER_OPTION_DEFAULT</ns4:name>
+               <ns4:value>TRUE</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>PLAN_TYPE</ns4:name>
+               <ns4:value>Residential</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>POLICY_SYSTEM</ns4:name>
+               <ns4:value>O</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>METER_TYPE</ns4:name>
+               <ns4:value>Prioritized</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>SELFCARE_TRANSITION_ALLOWED</ns4:name>
+               <ns4:value>True</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_PriorityData</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_VDE</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_WirelessRouterV2</ns4:value>
+            </ns4:feature>
+            <ns4:feature>
+               <ns4:name>BONUS_FEATURE</ns4:name>
+               <ns4:value>BF_VoiceAdapter</ns4:value>
+            </ns4:feature>
+            <ns4:costDescription>$0.00/month</ns4:costDescription>
+            <ns4:optionGroup>
+               <ns4:displayName>Contract Terms</ns4:displayName>
+               <ns4:selectionType>SELECT_ONE</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Select One of These Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>230111</ns4:packageItemReference>
+                  <ns4:displayName>Month-to-Month Agreement</ns4:displayName>
+                  <ns4:isDefault>false</ns4:isDefault>
+                  <ns4:itemType>CONTRACT</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>230111</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>true</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+            <ns4:optionGroup>
+               <ns4:displayName>Equipment Plans</ns4:displayName>
+               <ns4:selectionType>SELECT_ONE</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Select One of These Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>703344</ns4:packageItemReference>
+                  <ns4:displayName>Equipment Lease Fee - Monthly</ns4:displayName>
+                  <ns4:isDefault>false</ns4:isDefault>
+                  <ns4:itemType>EQUIPMENT_LEASE_FEE</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>703344</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>true</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+            <ns4:optionGroup>
+               <ns4:displayName>Included Features</ns4:displayName>
+               <ns4:selectionType>INCLUDED</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Included Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>240121</ns4:packageItemReference>
+                  <ns4:displayName>10 Email Addresses</ns4:displayName>
+                  <ns4:isDefault>true</ns4:isDefault>
+                  <ns4:itemType>EMAIL</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>240121</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>false</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+            <ns4:optionGroup>
+               <ns4:displayName>Internet Access Service</ns4:displayName>
+               <ns4:selectionType>INCLUDED</ns4:selectionType>
+               <ns4:selectionTypeDisplayName>Included Items</ns4:selectionTypeDisplayName>
+               <ns4:packageItem>
+                  <ns4:packageItemReference>704845</ns4:packageItemReference>
+                  <ns4:displayName>Basic 12+ 12 GB</ns4:displayName>
+                  <ns4:isDefault>false</ns4:isDefault>
+                  <ns4:itemType>INTERNET_ACCESS_SERVICE</ns4:itemType>
+                  <ns4:priceType>Monthly</ns4:priceType>
+                  <ns4:packageItemPrice>
+                     <ns4:masterCatalogReference>704845</ns4:masterCatalogReference>
+                     <ns4:price>0</ns4:price>
+                     <ns4:isItemPriceCalculated>true</ns4:isItemPriceCalculated>
+                     <ns4:isUpfrontPaymentRequired>false</ns4:isUpfrontPaymentRequired>
+                     <ns4:contractTerm>DO_NOT_USE</ns4:contractTerm>
+                     <ns4:equipmentPlan>DO_NOT_USE</ns4:equipmentPlan>
+                  </ns4:packageItemPrice>
+               </ns4:packageItem>
+            </ns4:optionGroup>
+         </ns4:package>
+      </ns4:getPackagesResponse>
+   </soap:Body>
+</soap:Envelope>

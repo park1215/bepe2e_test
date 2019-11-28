@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:sub="http://www.viasat.com/XMLSchema/v1/SubscriberProfileService">
+   <soapenv:Header>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>String</head:username>
+            <head:application>String</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <sub:updateSubscriberProfile>
+         <transactionReference>10107772</transactionReference>
+         <subscriberProfile>
+            <subscriberId>403030340</subscriberId>
+            <username>11:11:03:03:03:40</username>
+         </subscriberProfile>
+         <newUsername>E4:12:3D:BC:93:89</newUsername>
+      </sub:updateSubscriberProfile>
+   </soapenv:Body>
+</soapenv:Envelope>

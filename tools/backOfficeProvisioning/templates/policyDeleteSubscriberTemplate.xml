@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:pol="http://www.viasat.com/XMLSchema/v1/webservice/PolicyService">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <pol:deleteSubscriberRequest>
+         <pol:subscriberId></pol:subscriberId>
+      </pol:deleteSubscriberRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

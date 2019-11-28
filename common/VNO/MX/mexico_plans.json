@@ -1,0 +1,12 @@
+{
+    "Viasat 12 Mbps":{"buyMoreCount": 3, "rate":1299, "dataCap":"35" , "contract":12, "uploadSpeed":3,"downloadSpeed":12, "SISMProductId":"ec4100a1-a346-48d6-8050-23d33a6e76d7",
+"serviceDeliveryPartner": "bbbc0a5f-c056-4151-a1bd-36dcc5c66710","leaseFee":{"Fixed Satellite Monthly Lease Fee":172.41}},
+    "Viasat 12 Mbps Pro":{"buyMoreCount": 3, "rate":2499, "dataCap":80 , "contract":12, "uploadSpeed":3,"downloadSpeed":12,
+"SISMProductId":"079c37ff-98cd-4ba5-b8e4-b43e4f329fdd", "serviceDeliveryPartner": "bbbc0a5f-c056-4151-a1bd-36dcc5c66710"},
+    "Viasat 50 Mbps":{"buyMoreCount": 3, "rate":1299, "dataCap":50 ,
+"contract":12, "uploadSpeed":3,"downloadSpeed":50, "SISMProductId":"ab81cb38-f428-4578-ba8f-72e1bedc08bb","serviceDeliveryPartner": "bbbc0a5f-c056-4151-a1bd-36dcc5c66710"},
+    "Viasat 50 Mbps Pro":{"buyMoreCount": 3, "rate":2499, "dataCap":100 , "contract":12, "uploadSpeed":3,"downloadSpeed":50, "SISMProductId": "ab0851c4-f55e-4520-bb12-6755d5a5d781",
+"serviceDeliveryPartner": "bbbc0a5f-c056-4151-a1bd-36dcc5c66710"},
+    "Cargo por Activación":{"FOProductId": "5ea9067e-815c-4cb9-aca7-fd15af7deff6", "rate": 4000},
+     "Visita de Servicio - Estandar":{"FOProductId": "6121ac6e-37a2-47b1-8fb0-de8275288993", "rate": 0}
+}

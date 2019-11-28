@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:pub="http://www.wildblue.viasat.com/XMLSchema/v1/webservice/PublicFulfillmentWebService" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><wsu:Timestamp wsu:Id="TS-88E9A7569521D539AF1519328769779930"><wsu:Created>2018-02-22T19:46:09.779Z</wsu:Created><wsu:Expires>2018-02-22T19:51:09.779Z</wsu:Expires></wsu:Timestamp><wsse:UsernameToken wsu:Id="UsernameToken-88E9A7569521D539AF1519328769779929"><wsse:Username>QAADMIN</wsse:Username><wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">d3druBrekEa</wsse:Password><wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">iWD3w+/n02ITk6yjNyZ4Lg==</wsse:Nonce><wsu:Created>2018-02-22T19:46:09.779Z</wsu:Created></wsse:UsernameToken></wsse:Security></soapenv:Header>
+   <soapenv:Body>
+      <pub:scheduleCustomerInstall>
+         <pub:externalSystemName>WB_DIRECT</pub:externalSystemName>
+         <pub:externalAccountReference>86304836243185</pub:externalAccountReference>
+         <pub:externalOrderReference>86304836243185</pub:externalOrderReference>
+         <pub:scheduleDate>
+            <pub:fromDate>2018-02-17T11:41:59Z</pub:fromDate>
+            <pub:toDate>2018-02-20T11:42:00Z</pub:toDate>
+         </pub:scheduleDate>
+         <pub:notes>86304836243185</pub:notes>
+         <!--Optional:-->
+      </pub:scheduleCustomerInstall>
+   </soapenv:Body>
+</soapenv:Envelope>

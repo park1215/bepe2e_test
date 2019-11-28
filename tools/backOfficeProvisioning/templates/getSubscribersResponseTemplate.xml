@@ -1,0 +1,25 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<getSubscribersResponse xmlns="http://api.viasat.com/schema/oss/spr">
+			<status>Success</status>
+			<networkkey>1</networkkey>
+			<subscriberid>402999884</subscriberid>
+			<totalsubscribers>1</totalsubscribers>
+			<resultslimit>100</resultslimit>
+			<resultsoffset>0</resultsoffset>
+			<subscribers>
+				<subscriber>
+					<networkkey>1</networkkey>
+					<subscriberkey>100001957677338</subscriberkey>
+					<subscriberid>402999884</subscriberid>
+					<usernames>
+						<username>112211225566</username>
+					</usernames>
+					<getsubscriberuri>/spr/networks/1/subscribers/100001957677338</getsubscriberuri>
+					<modifysubscriberuri>/spr/networks/1/subscribers/100001957677338</modifysubscriberuri>
+					<deletesubscriberuri>/spr/networks/1/subscribers/100001957677338</deletesubscriberuri>
+				</subscriber>
+			</subscribers>
+		</getSubscribersResponse>
+	</soap:Body>
+</soap:Envelope>

@@ -1,0 +1,25 @@
+<Request xsi:schemaLocation="http://www.wildblue.com/XMLSchema/v2.1/OrderEntry ../../schema/v2.1/OrderEntry.xsd" xsi:noNamespaceSchemaLocation="../../schema/v2.1/WildBlue.xsd" xmlns:oe="http://www.wildblue.com/XMLSchema/v2.1/OrderEntry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SchemaVersion>2.1</SchemaVersion>
+  <TransactionID></TransactionID>
+  <TransactionMode>sync</TransactionMode>
+  <Requestor>qaadmin</Requestor>
+  <ResponseURL>http://www.wildblue.com</ResponseURL>
+  <Transaction xsi:type="oe:TransactionRequest" TransactionType="Update">
+    <SourceSystemID>WB_ORDER_ENTRY</SourceSystemID>
+    <SystemID>WB_DIRECT</SystemID>
+    <DisconnectAccount>
+      <OrderCommon>
+        <OrderReference>Disconnect_46982761174544</OrderReference>
+        <SellerInfo>
+          <OrderSoldBy>qaadmin</OrderSoldBy>
+          <FulfillmentVendor xsi:nil="true"/>
+        </SellerInfo>
+        <StartDate>2018-02-28</StartDate>
+      </OrderCommon>
+      <TargetAccount>46982761174544</TargetAccount>
+      <DisconnectReason>CUSTOMER_REQUESTED_RECONNECT</DisconnectReason>
+    </DisconnectAccount>
+  </Transaction>
+</Request>
+
+

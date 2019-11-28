@@ -1,0 +1,31 @@
+<soapenv:Envelope xmlns:pub="http://www.wildblue.viasat.com/XMLSchema/v1/webservice/PublicFulfillmentWebService" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><wsu:Timestamp wsu:Id="TS-88E9A7569521D539AF1519328764870928"><wsu:Created>2018-02-22T19:46:04.870Z</wsu:Created><wsu:Expires>2018-02-22T19:51:04.870Z</wsu:Expires></wsu:Timestamp><wsse:UsernameToken wsu:Id="UsernameToken-88E9A7569521D539AF1519328764870927"><wsse:Username>QAADMIN</wsse:Username><wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">d3druBrekEa</wsse:Password><wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">sHCr1qx/hTF5wS3oEfSf8w==</wsse:Nonce><wsu:Created>2018-02-22T19:46:04.870Z</wsu:Created></wsse:UsernameToken></wsse:Security></soapenv:Header>
+   <soapenv:Body>
+      <pub:getAvailableInstallDates>
+         <pub:fromDate>2018-02-22T11:41:58Z</pub:fromDate>
+         <pub:toDate>2018-03-09T11:41:59Z</pub:toDate>
+         <pub:location>
+            <!--Optional:-->
+            <GeoPosition>
+               <latitude>33.0957</latitude>
+               <longitude>-117.259986</longitude>
+            </GeoPosition>
+            <!--Optional:-->
+            <Address>
+               <countryCode>USA</countryCode>
+               <!--Optional:-->
+               <!--Optional:-->
+               <postalCode>92009</postalCode>
+               <!--Optional:-->
+               <region>CA</region>
+               <!--Zero or more repetitions:-->
+               <municipality>Carlsbad</municipality>
+               <addressLine>6155 El Camino Real</addressLine>
+            </Address>
+         </pub:location>
+         <pub:salesChannel>FIELD_TRIAL</pub:salesChannel>
+         <!--Optional:-->
+         <pub:customerType>EMPLOYEE</pub:customerType>
+      </pub:getAvailableInstallDates>
+   </soapenv:Body>
+</soapenv:Envelope>

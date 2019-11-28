@@ -1,0 +1,33 @@
+<soapenv:Envelope xmlns:head="http://www.wildblue.viasat.com/XMLSchema/v3.0/Header" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://www.viasat.com/XMLSchema/Facade/CatalogService/v1">
+   <soapenv:Header>
+       <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">       
+           <wsu:Timestamp wsu:Id="TS-88E9A7569521D539AF1519250789976916">
+               <wsu:Created>2018-02-21T22:06:29.976Z</wsu:Created>
+               <wsu:Expires>2018-02-21T22:11:29.976Z</wsu:Expires>
+           </wsu:Timestamp>
+           <wsse:UsernameToken wsu:Id="UsernameToken-88E9A7569521D539AF1519250789976915">
+               <wsse:Username>QAADMIN</wsse:Username>
+               <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">d3druBrekEa</wsse:Password>
+               <wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">cYcNgP60YZThSlF8af7Tyw==</wsse:Nonce>
+               <wsu:Created>2018-02-21T22:06:29.976Z</wsu:Created>
+           </wsse:UsernameToken>
+       </wsse:Security>
+      <head:wildBlueHeader>
+         <head:invokedBy>
+            <head:username>2018-02-22:11:37:47</head:username>
+            <head:application>1519250789972</head:application>
+         </head:invokedBy>
+      </head:wildBlueHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v1:getComponents>
+         <!--1 or more repetitions:-->
+         <v1:masterCatalogReference/>
+         <v1:masterCatalogReference/>
+         <v1:masterCatalogReference/>
+         <v1:masterCatalogReference/>
+         <v1:masterCatalogReference/>
+          <!--<v1:masterCatalogReference>704894</v1:masterCatalogReference><v1:masterCatalogReference>704887</v1:masterCatalogReference><v1:masterCatalogReference>704880</v1:masterCatalogReference><v1:masterCatalogReference>704845</v1:masterCatalogReference>-->
+      </v1:getComponents>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:eai="http://www.openet.com/PM/EAI">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <eai:GetSubscriberBalancesRequest>
+         <header>
+            <auditInfo>RequestSentByPolicyService</auditInfo>
+            <transactionId>1541438889953</transactionId>
+         </header>
+         <subscriberId>402993560</subscriberId>
+         <customAvpList>
+            <item>
+               <attribute>detailLevel</attribute>
+               <value>lowLevel</value>
+            </item>
+         </customAvpList>
+      </eai:GetSubscriberBalancesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

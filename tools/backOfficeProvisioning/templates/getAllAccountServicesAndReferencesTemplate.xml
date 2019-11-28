@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v3="http://www.viasat.com/XMLSchema/PublicWebService/AccountInfo/v3">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v3:getAllAccountServicesAndReferences>
+         <v3:externalSubscriberIdentifier>
+            <externalSystemName>WB_DIRECT</externalSystemName>
+            <externalReference>bepe2e_56786578676</externalReference>
+            <!--Optional:-->
+         </v3:externalSubscriberIdentifier>
+      </v3:getAllAccountServicesAndReferences>
+   </soapenv:Body>
+</soapenv:Envelope>

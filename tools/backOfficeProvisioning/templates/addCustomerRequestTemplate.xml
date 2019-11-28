@@ -1,0 +1,156 @@
+<Request xsi:schemaLocation="http://www.wildblue.com/XMLSchema/v2.1/OrderEntry https://apipub.test.wdc1.wildblue.net/XMLAgent/request?XSD=xsd/OrderEntry.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SchemaVersion>2.1</SchemaVersion>
+	<TransactionID>0</TransactionID>
+	<TransactionMode>sync</TransactionMode>
+	<Requestor>qaadmin</Requestor>
+	<ResponseURL>DONOTSEND</ResponseURL>
+	<Transaction xsi:type="ns3:TransactionRequest" TransactionType="Query" xmlns:ns3="http://www.wildblue.com/XMLSchema/v2.1/OrderEntry">
+		<SourceSystemID>WB_DIRECT</SourceSystemID>
+		<SystemID>WB_DIRECT</SystemID>
+		<AddCustomer>
+			<OrderCommon>
+				<OrderReference>86304836243185</OrderReference>
+				<trackingKey>1519328644647</trackingKey>
+				<SellerInfo>
+					<OrderSoldBy>qaadmin</OrderSoldBy>
+					<OrderEnteredBy>qaadmin</OrderEnteredBy>
+					<FulfillmentVendor xsi:nil="true"/>
+				</SellerInfo>
+				<StartDate>2018-02-22</StartDate>
+				<ReferralSource/>
+			</OrderCommon>
+			<CustomerInfo>
+				<CustomerReference>86304836243185</CustomerReference>
+				<BusinessName>Ennis Products, Inc</BusinessName>
+				<Contact>
+					<Person>
+						<FirstName>FN86304836243185</FirstName>
+						<MiddleName/>
+						<LastName>LN86304836243185</LastName>
+						<Suffix/>
+						<DOB>1982-08-19</DOB>
+					</Person>
+					<ContactInfo>
+						<ContactEmail>pleasechangethisemail@wildblue.net</ContactEmail>
+						<AlternateEmail xsi:nil="true"/>
+						<PhoneDaytime></PhoneDaytime>
+						<PhoneEvening>720-493-6000</PhoneEvening>
+						<PhoneMobile xsi:nil="true"/>
+						<Address>
+                            <Country>?</Country>
+							<Address1>6155 El Camino Real</Address1>
+							<Address2></Address2>
+							<City>Carlsbad</City>
+							<State>CA</State>
+							<ZipCode>92009</ZipCode>
+							<Zip4></Zip4>
+						</Address>
+					</ContactInfo>
+				</Contact><ParentCustomerID>WILDBLUE</ParentCustomerID>
+			</CustomerInfo>
+			<AccountInfo>
+				<AccountReference>86304836243185</AccountReference>
+				<AccountType>EMPLOYEE</AccountType>
+				<SalesChannel>FIELD_TRIAL</SalesChannel>
+				<Industry>NEW_CONNECT</Industry>
+				<ServiceLocation>
+					<Address>
+                        <Country>?</Country>
+						<Address1>6155 El Camino Real</Address1>
+						<Address2></Address2>
+						<City>Carlsbad</City>
+						<State>CA</State>
+						<ZipCode>92009</ZipCode>
+						<Zip4></Zip4>
+					</Address>
+					<ContactPerson>
+						<FirstName>FN86304836243185</FirstName>
+						<MiddleName/>
+						<LastName>LN86304836243185</LastName>
+						<Suffix/>
+					</ContactPerson>
+					<ContactDetail>
+						<ContactEmail>pleasechangethisemail@wildblue.net</ContactEmail>
+						<AlternateEmail xsi:nil="true"/>
+						<PhoneDaytime></PhoneDaytime>
+						<PhoneEvening>720-493-6000</PhoneEvening>
+						<PhoneMobile xsi:nil="true"/>
+					</ContactDetail>
+				</ServiceLocation>
+				<ShippingContact>
+					<Person>
+						<FirstName>FN86304836243185</FirstName>
+						<MiddleName/>
+						<LastName>LN86304836243185</LastName>
+					</Person>
+					<ContactInfo>
+						<ContactEmail>pleasechangethisemail@wildblue.net</ContactEmail>
+						<AlternateEmail xsi:nil="true"/>
+						<PhoneDaytime></PhoneDaytime>
+						<PhoneEvening>720-493-6000</PhoneEvening>
+						<PhoneMobile xsi:nil="true"/>
+						<Address>
+                            <Country>?</Country>
+							<Address1>6155 El Camino Real</Address1>
+							<Address2></Address2>
+							<City>Carlsbad</City>
+							<State>CA</State>
+							<ZipCode>92009</ZipCode>
+							<Zip4></Zip4>
+						</Address>
+					</ContactInfo>
+				</ShippingContact>
+				<InstallationLogin>
+					<Username/>
+					<Password/>
+				</InstallationLogin>
+				<BillingType>SENDER</BillingType>
+				<TaxJurisdiction xsi:nil="true"/>
+				<OnetimePayment>
+                                        <!--CreditCard>
+                                                <Type>VISA</Type>
+                                                <Number>QtlwG9j/rde52MFEPEXz0t15TujQEMVU</Number>
+                                                <ExpirationMonth>04</ExpirationMonth>
+                                                <ExpirationYear>2019</ExpirationYear>
+                                                <AccountName>
+                                                        <FirstName>BEP</FirstName>
+                                                        <MiddleName/>
+                                                        <LastName>E2E</LastName>
+                                                        <Suffix/>
+                                                        <BusinessName/>
+                                                </AccountName>
+                                                <BillingAddressZip>80111</BillingAddressZip>
+                                        </CreditCard-->
+                                        <EFT>
+                                                <AccountType>SAVINGS</AccountType>
+                                                <BankAccountNumber>Ov3EDIicIVA=</BankAccountNumber>
+                                                <BankRoutingNumber>000000000</BankRoutingNumber>
+                                                <AccountName>
+                                                        <FirstName>dfgf</FirstName>
+                                                        <MiddleName/>
+                                                        <LastName>fdgfg</LastName>
+                                                        <Suffix/>
+                                                        <BusinessName/>
+                                                </AccountName>
+                                        </EFT>
+                                        <Amount></Amount>
+				</OnetimePayment>
+				<RecurringPayment>
+					<EFT>
+						<AccountType>SAVINGS</AccountType>
+						<BankAccountNumber>Ov3EDIicIVA=</BankAccountNumber>
+						<BankRoutingNumber>000000000</BankRoutingNumber>
+						<AccountName>
+							<FirstName>dfgf</FirstName>
+							<MiddleName/>
+							<LastName>fdgfg</LastName>
+							<Suffix/>
+							<BusinessName/>
+						</AccountName>
+					</EFT>
+					<StartDate>2018-02-22</StartDate>
+				</RecurringPayment>
+			</AccountInfo>
+		</AddCustomer>
+	</Transaction>
+</Request>
